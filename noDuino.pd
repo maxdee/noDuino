@@ -1,0 +1,32 @@
+#N canvas 111 656 450 357 10;
+#X obj 76 130 phasor~ 1000;
+#X obj 76 150 <~ 0.5;
+#X obj 112 110 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 0 1;
+#X floatatom 76 109 5 0 0 0 - - -;
+#X obj 76 170 -~ 0.5;
+#X obj 76 190 *~ 2;
+#X obj 169 300 dac~;
+#X text 51 92 frequence;
+#X text 111 92 rapport de cycle;
+#X obj 190 192 phasor~ 1000;
+#X obj 190 212 <~ 0.5;
+#X obj 226 172 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 0 1;
+#X floatatom 190 171 5 0 0 0 - - -;
+#X obj 190 232 -~ 0.5;
+#X obj 190 252 *~ 2;
+#X text 165 154 frequence;
+#X text 225 154 rapport de cycle;
+#X connect 0 0 1 0;
+#X connect 1 0 4 0;
+#X connect 2 0 1 1;
+#X connect 3 0 0 0;
+#X connect 4 0 5 0;
+#X connect 5 0 6 0;
+#X connect 9 0 10 0;
+#X connect 10 0 13 0;
+#X connect 11 0 10 1;
+#X connect 12 0 9 0;
+#X connect 13 0 14 0;
+#X connect 14 0 6 1;
