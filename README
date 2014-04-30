@@ -1,0 +1,7 @@
+Much of my work involves audio systems as a tool for other things than sound.
+http://youtu.be/F0WSTMX9TJo
+
+This simple board allows you to have two computer controlled flexible PWM outputs.
+It simply hooks up to your sound card. Generate square waves to control the things.
+PureData offers a flexible environment to conduct your experiments.
+Record your creations to sound files and play them back with whatever :)
